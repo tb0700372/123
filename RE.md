@@ -20,3 +20,13 @@
 
 
 对一批编号为1～100，全部开关朝上(开)的灯进行以下操作：凡是1的倍数反方向拨一次开关；2的倍数反方向又拨一次开关；3的倍数反方向又拨一次开关… …问：最后为关熄状态的灯的编号？
+
+import re
+
+
+if __name__ == "__main__":
+
+
+# 正则 re_1 = re.compile(r"[^A-Z]+") re_2 = re.compile(r"([A-Z])\1") re_3 = re.compile(r"([A-Z])[A-Z]*([A-Z])[A-Z]*\1[A-Z]*\2") # 输入 abc = input('输入单词:') # 判断 if re_1.search(abc) or re_2.search(abc) or re_3.search(abc): print("小明不喜欢") else: print("小明喜欢")
+
+
